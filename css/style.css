@@ -146,11 +146,14 @@
     border-radius: 2px;
 }
 
+.popup_image_container{
+    flex: 1 1 auto;
+}
+
 .popup_item img {
     display: block;
     width: 50px;
     margin: 10px auto;
-    flex: 1 1 auto;
 }
 
 .popup_item p {

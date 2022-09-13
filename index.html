@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HTML-CSS-Popup</title>
 </head>
 <body>
+<header class="header">
+    <a href="#" class="header__logo">
+        <img src="img/favicon.png" alt="Logo" class="logo_img" />
+    </a>
 
+    <nav>
+        <ul class="header__menu">
+            <li><a href="#" class="header__link">Mail</a></li>
+            <li><a href="#" class="header__link">Images</a></li>
+            <li>
+                <input type="checkbox" id="popup_checkbox" class="hidden_checkbox"/>
+                <label for="popup_checkbox" class="popup_label">
+                    <img src="img/popup-button.png" alt="popup" />
+                </label>
+            </li>
+            <li>
+                <a href="#" class="user_avatar">
+                    <img src="img/avatar.png" alt="AV" class="avatar">
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
 </body>
 </html>
